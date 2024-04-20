@@ -1,0 +1,46 @@
+h2
+{
+    margin-bottom: 30px;;
+    padding-left: 12px;
+    font-weight: 500;
+}
+
+label
+{
+   margin-bottom: 12px;
+   font-size: 14px;
+   font-weight: 200;display: flex;
+   flex-direction: column;
+}
+
+select 
+{
+   font-size: 12px;
+}
+
+#tabla
+{
+    margin-top: 40px;;
+}
+
+.tableheading
+{
+    margin: 5px;;
+    background-color: ghostwhite ;
+}
+
+table.w3-table tr:nth-child(even) 
+{
+    background-color: lightgrey;
+}
+
+td
+{
+    font-size: 12px;
+}
+
+th
+{
+    font-weight: 500; 
+}
+
