@@ -1,1 +1,30 @@
+Index.php
+Representa la vista del proyecto. 
+Contiene 3 campos select para que el usuario realice las selecciones de datos. 
+Tiene también una tabla que presenta los datos resultado de las búsquedas,se actualiza dinámicamente a través del código Javascript .
+Los campos select disparan funciones Javascript para actualizar los campos select y cuando los 3 campos select presentan elecciones del usuario finalmente se impriman los resultados.
+
+Select.js
+Representa el controlador del proyecto. Recibe las peticiones del usuario al seleccionar en los campos select y dispara las búsquedas en la base de datos.
+Contiene las funciones siguientes:
+1) una función que responde al evento de la página cargada , disparando una petición JSON para completar el select de provincias.
+2) una función que responde al evento de cambio en el select de provincia que dispara una petición JSON para completar el select de departamentos.
+3) una función que responde al evento de cambio en el select de departamento que dispara una petición JSON para completar el select de municipios.
+4) una función que responde al evento de cambio en el select de municipio que dispara una petición JSON para obtener el listado de localidades correspondiente a los campos seleccionados y su incorporación a la tabla correspondiente.
+
+Style.css
+Contiene las modificaciones al esquema general W3.css para personalizar el trabajo.
+
+env.php
+Contiene las variables de entorno reutilizables en varios archivos que representan el modelo del proyecto.
+
+conn.php
+Contiene el proceso de conexión a la base de datos, reutilizable en varios archivos que representan el modelo del proyecto.
+
+json.php
+Contiene la recepción de la petición JSON reutilizable en varios archivos que representan el modelo del proyecto.
+
+RecuperarLocalidad.php , refrescarProvincia.php, refrescarDepartamento.php
+Representan el modelo del proyecto definiendo las consultas a la base de datos.
+
 
