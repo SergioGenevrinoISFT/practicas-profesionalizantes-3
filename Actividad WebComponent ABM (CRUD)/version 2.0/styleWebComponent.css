@@ -1,0 +1,25 @@
+ my-component button, select 
+ {
+     padding: 5px 40px 5px 40px;
+ }
+
+ my-component table {
+           border-collapse: collapse;
+ }
+
+ my-component th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ddd;
+      width: 192px;
+ }
+
+ my-component table tr:nth-child(odd) {
+    background-color: #E0E0E0;
+ }
+
+my-component th 
+{
+    background-color: #BEBEBE;
+}
+
