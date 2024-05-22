@@ -1,0 +1,21 @@
+/* CSS para dar formato a la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Ajuste de ancho de las celdas de datos, a partir del segundo encabezado */
+/* th:not(:first-child),*/
+td:not(:first-child) {
+    width: 60px;
+    height: 55px;
+    /* Puedes ajustar el ancho como desees */
+}

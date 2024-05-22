@@ -1,0 +1,31 @@
+/* CSS para dar formato a la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Ajuste de ancho de las celdas de datos, a partir del segundo encabezado */
+/* th:not(:first-child),*/
+td:not(:first-child) {
+    width: 60px;
+    height: 55px;
+    /* Puedes ajustar el ancho como desees */
+}
+
+#myradiobuttons {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+    margin-bottom: 35px;
+    margin-top: 25px;
+    /* Agrega un margen inferior de 20px */
+    color:rgb(39, 167, 8);
+    font-weight: 600;
+}

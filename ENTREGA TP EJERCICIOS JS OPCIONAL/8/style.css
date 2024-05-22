@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* TAMAÑO DE CELDAS MENOS LA PRIMERA*/
+td:not(:first-child) {
+    width: 60px;
+    height: 55px;
+}
+
+#representar-informacion {
+    margin-bottom: 20px;
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0.5px lightgray;
+    font-size: 14px;
+}
