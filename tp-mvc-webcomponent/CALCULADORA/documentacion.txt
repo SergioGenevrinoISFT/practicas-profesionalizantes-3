@@ -1,0 +1,1 @@
+Falta el archivo calculator.css porque agregue los estilos utilizando el shadow DOM
